@@ -1,0 +1,30 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card.matched {
+  background-color: #7950f2;
+  cursor: default;
+}
+
+.card.flipped {
+  background-color: lightblue;
+  cursor: default;
+}
+
+  

@@ -1,0 +1,61 @@
+.start-btn {
+  background-color: var(--main-purple);
+  border: none;
+  color: white;
+  padding: 2px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  width: 100%;
+  font-size: 3.2rem;
+}
+
+.close-btn {
+  background-color: var(--main-purple);
+  width: 2.8rem;
+  height: 2.8rem;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  margin: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 3rem;
+}
+
+.homeContainer {
+  position: absolute;
+}
+.review-custom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.reviewCustomTop {
+  position: relative;
+  width: 100%;
+  background-color: var(--lighter-grey);
+  border-radius: 1rem;
+}
+.reviewCustomTop h3 {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
